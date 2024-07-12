@@ -1,0 +1,133 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.li-cont-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 5px;
+  margin: 5px;
+  max-width: 80%;
+
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.li-icon {
+  border-radius: 50%;
+  color: #ffffff;
+  width: 30px;
+  height: 30px;
+  padding: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.li-cont-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 80px;
+}
+
+.li-cont-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  word-wrap: break-word;
+  flex-wrap: wrap;
+  margin-left: 10px;
+}
+.li-name {
+  margin-right: 15px;
+  word-wrap: break-word;
+    font-size: 25px;
+    width: 80%; /* Ensure the container has a width */
+    overflow-wrap: anywhere; /* Break long unbreakable sections */
+    word-break: break-all;
+}
+.li-time {
+  margin-right: 5px;
+  font-size: 12px;
+  color: #475569;
+}
+.li-comment {
+  margin-left: 20px;
+  font-size: 14px;
+  word-break: break-all;
+  color: #1e293b;
+}
+.li-btn-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+.like-btn {
+  background-color: transparent;
+  outline: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 65px;
+  align-items: center;
+  cursor: pointer;
+  border: 0px;
+}
+
+.delete-btn {
+  background-color: transparent;
+  outline: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 40px;
+  align-items: center;
+  cursor: pointer;
+  border: 0px;
+}
+
+@media (max-width: 767px) {
+  .li-name {
+    word-wrap: break-word;
+    font-size: 12px;
+    width: 80%; /* Ensure the container has a width */
+    overflow-wrap: anywhere; /* Break long unbreakable sections */
+    word-break: break-all;
+  }
+}
